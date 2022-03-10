@@ -19,7 +19,7 @@ $(".close").click( () => {
 function Change(){
     if (lan.innerHTML === 'EN'){
         lan.innerHTML = 'MK';
-        intro.text("Hello, my name is Sashka, I'm 37 years old from Macedonia-Skopje. With over than 7 years of work experience in the field of interior design. Graduated from Architecture and Higher Education - Design and Interior. With more than 2 years of work experience in 3D CIMEMA4D and preparation of technical realization and basics in 2D AutoCAD as well as extensive work experience in production plant for furniture.");
+        intro.text("Hello, my name is Sashka, I'm 37 years old from Skopje-Macedonia. With many years of work experience in the field of interior design. Graduated from Architecture and Higher Education - Design and Interior. With more than 2 years of work experience in 3D CIMEMA4D and preparation of technical realization and basics in 2D AutoCAD as well as extensive work experience in production plant for furniture.");
         $("#intro").text("Intro");
         $("#work").text("Work");
         $("#contact").text("Contact");
@@ -34,7 +34,7 @@ function Change(){
     }   
     else if (lan.innerHTML === 'MK'){
         lan.innerHTML = 'EN';
-        intro.text("Здраво, јас сум Сашка, имам 37 години од Македонија-Скопје. Со работно искуство повеќе од 7 години во областа внатрешно дизајнирање. Завршено средно образование Архитектура и високо образование - дизајн и ентериер.Со повеќе од 2 години работно искуство во 3D CIMEMA4D и изработка на техничка реализација и основи во 2D AutoCAD како и големо работно искуство во производен погон за мебел.")
+        intro.text("Здраво, јас сум Сашка, имам 37 години од Скопје-Македонија. Со работно искуство од повеќе години во областа внатрешно дизајнирање. Завршено средно образование Архитектура и високо образование - дизајн и ентериер.Со повеќе од 2 години работно искуство во 3D CIMEMA4D и изработка на техничка реализација и основи во 2D AutoCAD како и големо работно искуство во производен погон за мебел.")
         $("#intro").text("За мене");
         $("#work").text("Моја работа");
         $("#contact").text("Контакт");
