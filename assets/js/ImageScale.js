@@ -26,7 +26,7 @@ first.click( function () {
             });
         }
     });
-    Close_button.fadeIn(2000);
+    Close_button.fadeIn(1500);
             if (document.getElementById("first").style.transform === "scale(1.2)"){
                 Close_button.click( function () {
                     document.getElementById("first").style.transform = "scale(1)";
@@ -47,7 +47,7 @@ first.click( function () {
         });
 second.click( function () {
     this.style.transform = "scale(1.2)";
-    Close_button1.fadeIn(2000);
+    Close_button1.fadeIn(1500);
     $("#work #first, #third, #fourth, #fifth, h2, p").animate({blurRadius: 10}, {
         duration: 250,
         easing: 'swing',
@@ -79,7 +79,7 @@ second.click( function () {
         });
 third.click( function () {
     this.style.transform = "scale(1.2)";
-    Close_button2.fadeIn(2000);
+    Close_button2.fadeIn(1500);
     $("#work #first, #second, #fourth, #fifth, h2, p").animate({blurRadius: 10}, {
         duration: 250,
         easing: 'swing',
@@ -111,7 +111,7 @@ third.click( function () {
         });
 fourth.click( function () {
     this.style.transform = "scale(1.2)";
-    Close_button3.fadeIn(2000);
+    Close_button3.fadeIn(1500);
     $("#work #first, #third, #second, #fifth, h2, p").animate({blurRadius: 10}, {
         duration: 250,
         easing: 'swing',
@@ -143,7 +143,7 @@ fourth.click( function () {
         });
 fifth.click( function () {
     this.style.transform = "scale(1.2)";
-    Close_button4.fadeIn(2000);
+    Close_button4.fadeIn(1500);
     $("#work #first, #third, #fourth, #second, h2, p").animate({blurRadius: 10}, {
         duration: 250,
         easing: 'swing',
