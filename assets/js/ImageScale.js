@@ -16,7 +16,7 @@ var Close_button4 = $("#close4").hide();
 first.click( function () {
     this.style.transform = "scale(1.2)";
     $("#work #second, #third, #fourth, #fifth, h2, p").animate({blurRadius: 10}, {
-        duration: 500,
+        duration: 250,
         easing: 'swing',
         step: function() {
             console.log(this.blurRadius);
@@ -32,7 +32,7 @@ first.click( function () {
                     document.getElementById("first").style.transform = "scale(1)";
                     Close_button.hide();
                     $("#work #second, #third, #fourth, #fifth, h2, p").animate({blurRadius: 0}, {
-                        duration: 500,
+                        duration: 250,
                         easing: 'swing',
                         step: function() {
                             console.log(this.blurRadius);
@@ -49,7 +49,7 @@ second.click( function () {
     this.style.transform = "scale(1.2)";
     Close_button1.fadeIn(2000);
     $("#work #first, #third, #fourth, #fifth, h2, p").animate({blurRadius: 10}, {
-        duration: 500,
+        duration: 250,
         easing: 'swing',
         step: function() {
             console.log(this.blurRadius);
@@ -64,7 +64,7 @@ second.click( function () {
             document.getElementById("second").style.transform = "scale(1)";
             Close_button1.hide();
             $("#work #first, #third, #fourth, #fifth, h2, p").animate({blurRadius: 0}, {
-                duration: 500,
+                duration: 250,
                 easing: 'swing',
                 step: function() {
                     console.log(this.blurRadius);
@@ -81,7 +81,7 @@ third.click( function () {
     this.style.transform = "scale(1.2)";
     Close_button2.fadeIn(2000);
     $("#work #first, #second, #fourth, #fifth, h2, p").animate({blurRadius: 10}, {
-        duration: 500,
+        duration: 250,
         easing: 'swing',
         step: function() {
             console.log(this.blurRadius);
@@ -96,7 +96,7 @@ third.click( function () {
                     document.getElementById("third").style.transform = "scale(1)";
                     Close_button2.hide();
                     $("#work #first, #second, #fourth, #fifth, h2, p").animate({blurRadius: 0}, {
-                        duration: 500,
+                        duration: 250,
                         easing: 'swing',
                         step: function() {
                             console.log(this.blurRadius);
@@ -113,7 +113,7 @@ fourth.click( function () {
     this.style.transform = "scale(1.2)";
     Close_button3.fadeIn(2000);
     $("#work #first, #third, #second, #fifth, h2, p").animate({blurRadius: 10}, {
-        duration: 500,
+        duration: 250,
         easing: 'swing',
         step: function() {
             console.log(this.blurRadius);
@@ -128,7 +128,7 @@ fourth.click( function () {
                     document.getElementById("fourth").style.transform = "scale(1)";
                     Close_button3.hide();
                     $("#work #first, #third, #second, #fifth, h2, p").animate({blurRadius: 0}, {
-                        duration: 500,
+                        duration: 250,
                         easing: 'swing',
                         step: function() {
                             console.log(this.blurRadius);
@@ -145,7 +145,7 @@ fifth.click( function () {
     this.style.transform = "scale(1.2)";
     Close_button4.fadeIn(2000);
     $("#work #first, #third, #fourth, #second, h2, p").animate({blurRadius: 10}, {
-        duration: 500,
+        duration: 250,
         easing: 'swing',
         step: function() {
             console.log(this.blurRadius);
@@ -160,7 +160,7 @@ fifth.click( function () {
                     document.getElementById("fifth").style.transform = "scale(1)";
                     Close_button4.hide();
                     $("#work #first, #third, #fourth, #second, h2, p").animate({blurRadius: 0}, {
-                        duration: 500,
+                        duration: 250,
                         easing: 'swing',
                         step: function() {
                             console.log(this.blurRadius);
@@ -173,5 +173,3 @@ fifth.click( function () {
                     });
             }
         });
-
-        document.getElementById("work_header").style.filter
